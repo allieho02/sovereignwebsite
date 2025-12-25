@@ -58,3 +58,34 @@
 .report-list {
   min-height: 48px;
 }
+
+.header-bar {
+  width: 100vw;
+  min-height: 58px;
+  background: #161925;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 12px 0 #16192533;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+
+.header-content {
+  max-width: 1280px;
+  width: 100vw;
+  padding: 0 2rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 58px;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.33rem;
+  letter-spacing: 0.09rem;
+  text-transform: uppercase;
+}
